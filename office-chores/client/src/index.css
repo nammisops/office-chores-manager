@@ -33,7 +33,6 @@ input, textarea, select {
   flex-shrink: 0;
   z-index: 100;
 }
-.notification-banner.amber { background: #e67e00; }
 .notification-banner.red   { background: #c0392b; }
 .notification-banner__msg  { flex: 1; }
 .notification-banner__link { color: #fff; text-decoration: underline; cursor: pointer; background: none; padding: 0; font-weight: 600; }

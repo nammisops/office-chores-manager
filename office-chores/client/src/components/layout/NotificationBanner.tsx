@@ -7,7 +7,7 @@ export function NotificationBanner() {
 
   if (dismissed || (overdueCount === 0 && dueTodayCount === 0)) return null;
 
-  const variant = overdueCount > 0 ? 'red' : 'amber';
+  const variant = 'red';
 
   const parts: string[] = [];
   if (overdueCount > 0) parts.push(`${overdueCount} overdue`);
